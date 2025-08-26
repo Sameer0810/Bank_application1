@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    color: rgb(236, 235, 240);
+    font-family: 'Log in', sans-serif;
+    text-shadow: 3px 3px blur black;
+}
+.cls{
+    background-color: rgba(128, 128, 128, 0.349);
+    box-shadow: 3px 3px 5px 5px black;
+
+}
+body{
+    background: url(./images/backg.jpg) no-repeat center/cover;
+}
+
+.bg{
+    background-color: rgba(80, 71, 80, 0.507);
+    border:1px solid rgba(119, 114, 114, 0.555);
+    box-shadow: 6px 6px 7px 7px;
+    height: 50vh;
+}
+.formbox{
+    border: solid 2px black none;
+    width: 35%;
+    padding: 2vh 2vw;
+    border-radius: 30px;
+    margin: 30vh auto;
+    /* background-image: radial-gradient(blue, purple); */
+}
+
+.formbox :where(input,button){
+    width: 70%;
+    padding: 1.5vh 1vw;
+    display: block;
+    margin: 2vh auto;
+    border-radius: 10px;
+    border: solid 2px black;
+    
+}
+
+button{
+    background-color: green;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
